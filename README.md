@@ -1,69 +1,4 @@
----
-marp: true
-paginate: true
-header:   Zebra Technologies Tech Seminar Oct 2023 
-footer: Visit www.zebra.com for details!
-style: |
-    @import 'default';
-    @import url('https://fonts.googleapis.com/css?family=Noto Sans JP&display=swap');
 
-    section{
-        font-family: 'Noto Sans JP', serif;
-        background-color: white;
-        justify-content: start;
-        font-size: 150%
-    }
-
-    section.main-title *, h3, h4{
-        justify-content: center;
-        text-align: center;
-    }
-
-    section.main-distitle *, h3, h4{
-        justify-content: start;
-        text-align: left;
-    }
-
-
-    section.sub-title {
-        justify-content: center;
-        text-align: center;
-    }
-
-    section.author {
-        text-align: right;
-        justify-content: end;
-    }
-
-    section.smallfontsize{
-        font-size: 100%
-    }
-
-        section.defaultfontsize{
-        font-size: 100%
-    }
-
-
----
-<!-- 全体設定ですよ -->
-<!-- これはコメント -->
-
-
-
-
-
-<!-- 
-参考リンク：
-
-https://qiita.com/e99h2121/items/79db6b7375ccbf3d3977#marp-%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%B7%E3%83%B3%E3%82%BF%E3%83%83%E3%82%AF%E3%82%B9
-
-[marpで使える 画像の記法をマスターしよう](https://zenn.dev/cota_hu/books/marp-beginner-advanced/viewer/create-2)
-
-[Marpでスライドを左右に分割する方法](https://qiita.com/ShibuKazu/items/8c35f8b6ebe24af03cdc)
-
-[marp nextで中央寄せをする](https://qiita.com/isobe_mochi/items/4c60f54bba8133e4a8ab)
-
--->
 
 
 
@@ -77,12 +12,11 @@ https://qiita.com/e99h2121/items/79db6b7375ccbf3d3977#marp-%E3%82%A4%E3%83%A1%E3
 </br>
 </br>
 
-<!-- _class: author -->
-Zebra Technologies Japan
-Senior Sales Engineer
-Yu Sasaki / 佐々木有
-22 Sep 2023
-[www.zebra.com](https://www.zebra.com)
+    Zebra Technologies Japan
+    Senior Sales Engineer
+    Yu Sasaki / 佐々木有
+    22 Sep 2023
+    [www.zebra.com](https://www.zebra.com)
 
 
 
@@ -415,27 +349,27 @@ RFIDオートキャリブレーションは確実にエンコードができる�
 
 <!-- _class: smallfontsize -->
 
-RFID calibration=passed
-position=B9 MM,A1,21,22
-tid information=E280.6890:NXP
-leading edge
-    Tag 1   ,
-EPC,9CD5    ,
-(略)
-B11,A1,14,15,
-B10,A1,13,15,
-B09,A1,13,14,<---****A1
-B08,A1,13,15,
-B07,A1,16,17,
-B06,A1,18,20, ★
-B05,A1,24,26, 
-B04,A1,  ,  ,
-B03,A1,26,  ,
-B02,A1,25,26,
-B01,A1,26,27,
-F00,A1,  ,  ,
-(略)
-trailing edge
+    RFID calibration=passed
+    position=B9 MM,A1,21,22
+    tid information=E280.6890:NXP
+    leading edge
+        Tag 1   ,
+    EPC,9CD5    ,
+    (略)
+    B11,A1,14,15,
+    B10,A1,13,15,
+    B09,A1,13,14,<---****A1
+    B08,A1,13,15,
+    B07,A1,16,17,
+    B06,A1,18,20, ★
+    B05,A1,24,26, 
+    B04,A1,  ,  ,
+    B03,A1,26,  ,
+    B02,A1,25,26,
+    B01,A1,26,27,
+    F00,A1,  ,  ,
+    (略)
+    trailing edge
 
 ---
 
