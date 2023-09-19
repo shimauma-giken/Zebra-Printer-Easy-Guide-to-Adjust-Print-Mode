@@ -1,14 +1,3 @@
----
-marp: true
-paginate: true
-header:    
-footer: Visit www.zebra.com for details!
-style: |
-    @import 'default';
-    @import url('https://fonts.googleapis.com/css?family=Noto Sans JP&display=swap');
-
-
-
 
 
 </br>
