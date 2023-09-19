@@ -10,15 +10,8 @@
 </br>
 </br>
 
-<!-- _class: author -->
-Zebra Technologies Japan
-Senior Sales Engineer
-Yu Sasaki / 佐々木有
-22 Sep 2023
-[www.zebra.com](https://www.zebra.com)
 
 
-![bg](./picture/bg-Zebra-02.png)
 
 ---
 
@@ -105,7 +98,7 @@ Yu Sasaki / 佐々木有
 
 
 ---
-![bg](./picture/bg-Zebra-02.png)
+
 
 <!-- _class: sub-title -->
 
