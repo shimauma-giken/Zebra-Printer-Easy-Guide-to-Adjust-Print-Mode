@@ -2,8 +2,8 @@
 
 </br>
 
-### なぜRFIDプリンタにカッターが利用できないという迷信が広まるのか
-#### ～ 実機で用紙オプションの基本をしっかり理解する ～
+## なぜRFIDプリンタにカッターが利用できないという迷信が広まるのか
+### ～ 実機で用紙オプションの基本をしっかり理解する ～
 
 </br>
 </br>
@@ -31,6 +31,8 @@
 結論：顧客サポートにおいては非常に重要。（特にRFIDオプション利用時）
 -->
 
+</br>
+</br>
 --- 
 
 
@@ -51,6 +53,8 @@
         ハーフとフルリワインダーは間違えないようにしよう
 
 
+</br>
+</br>
 
 ---
 
@@ -71,6 +75,9 @@
 
 
 △ --- 一部モデルのみ対応
+
+</br>
+</br>
 
 
 
@@ -95,6 +102,9 @@
 わからない場合はzebra.com > 製品サポートページの動画を見よう。
 
 
+</br>
+</br>
+
 
 ---
 
@@ -103,6 +113,10 @@
 
 
 # 用紙オプションを理解しよう
+
+</br>
+</br>
+
 
 ---
 <!-- _class: sub-distitle -->
@@ -119,6 +133,10 @@
 - Delay Cut
 
 ![bg right:40% 80%](./picture/ZT411-Cutter-01.png)
+
+</br>
+</br>
+
 
 ---
 
@@ -144,6 +162,10 @@ sample_2x1_200dpi_cutter-mode.prn
 sample_2x1_200dpi_delayed-cutter-mode.prn
 -->
 
+</br>
+</br>
+
+
 ---
 
 ### Sample ZPL - Cutter Mode
@@ -170,6 +192,10 @@ sample_2x1_200dpi_delayed-cutter-mode.prn
     ^FT27,68^A0N,31,30^FH\^CI28^FDCut!!^FS^CI27
     ^XZ
 
+</br>
+</br>
+
+
 ---
 
 ### Sample ZPL - Delay Cut Mode
@@ -188,6 +214,10 @@ sample_2x1_200dpi_delayed-cutter-mode.prn
 
     -- Cut Now!!
     ! U1 do "media.cut_now" ""
+
+</br>
+</br>
+
 
 
 ---
@@ -212,6 +242,9 @@ sample_2x1_200dpi_peel-mode.prn
 -->
 
 
+</br>
+</br>
+
 
 ---
 ## 用紙巻き取り
@@ -233,6 +266,10 @@ Run Script
 sample_2x1_200dpi_rewind-mode.prn
 -->
 
+</br>
+</br>
+
+
 ---
 ### Sample ZPL - Rewinder Mode
     ^XA
@@ -243,6 +280,10 @@ sample_2x1_200dpi_rewind-mode.prn
     ^FH\^FD>;123456789012^FS
     ^PQ5,0,1,Y
     ^XZ
+    
+</br>
+</br>
+
 
 ### Sample ZPL - Peeler Mode
     ^XA
@@ -251,6 +292,9 @@ sample_2x1_200dpi_rewind-mode.prn
     ^FT27,68^A0N,31,30^FH\^CI28^FDPeel test!!!^FS^CI27
     ^PQ5
     ^XZ
+
+</br>
+</br>
 
 
 ---
@@ -270,6 +314,10 @@ sample_2x1_200dpi_rewind-mode.prn
         利用不可。Silverlineラベルはその物理的特性により、カッター・ピーラー・フルリワインダーなどの
         用紙オプションの利用は非サポート。
 
+</br>
+</br>
+
+
 ---
 ### オプション利用時は用紙要件が異なる
 
@@ -286,6 +334,9 @@ sample_2x1_200dpi_rewind-mode.prn
 
     カッター利用時は特に長いラベル長が求められることを理解しよう。
 
+
+</br>
+</br>
 
 
 
@@ -311,6 +362,10 @@ sample_2x1_200dpi_rewind-mode.prn
 
 特に用紙オプション+ RFID利用時はバックフィード量のコントロールが鍵
 
+</br>
+</br>
+
+
 ---
 
 ## 実習1 (基本)
@@ -322,6 +377,9 @@ sample_2x1_200dpi_rewind-mode.prn
 2. 印刷後のラベル停止位置を調整してみよう。
    
         「ラベル停止位置の調整」をみながら、ラベル停止位置を調整してみよう。
+
+</br>
+</br>
 
 
 ---
@@ -339,6 +397,9 @@ sample_2x1_200dpi_rewind-mode.prn
 
 ![bg right:30% 60%](./picture/panel-media-handleing.png)
 
+</br>
+</br>
+
 
 ---
 ## ラベル停止位置の調整
@@ -354,6 +415,10 @@ sample_2x1_200dpi_rewind-mode.prn
 
 
 ![bg right:30% 60%](./picture/ZT411-Meia-tof-01.png)
+
+</br>
+</br>
+
 
 ---
 
@@ -381,7 +446,11 @@ sample_2x1_200dpi_rewind-mode.prn
     ^FT27,68^A0N,31,30^FH\^CI28^FDCut!!^FS^CI27
     ^XZ
 
----
+</br>
+</br>
+
+
+
 
 ### Sample ZPL - Delay Cut Mode
 
@@ -402,8 +471,10 @@ sample_2x1_200dpi_rewind-mode.prn
 
 
 
+</br>
+</br>
 
----
+
 ### Sample ZPL - Rewinder Mode
     ^XA
     ^MMR
@@ -422,6 +493,9 @@ sample_2x1_200dpi_rewind-mode.prn
     ^PQ5
     ^XZ
 
+　</br>
+</br>
+
 
 ---
 
@@ -436,6 +510,10 @@ sample_2x1_200dpi_rewind-mode.prn
 1. ラベル停止位置を大きく変えてラベルドロップ現象を再現してみよう
 
         どのあたり設定値でラベルドロップが発生するのか確認してみよう。
+
+</br>
+</br>
+
 
 ---
 
@@ -456,6 +534,10 @@ sample_2x1_200dpi_rewind-mode.prn
 > 1. カット位置はできるだけ前のラベル寄りが良い
 > 2. エンコード位置はできるだけF0に近い方が良い
 
+</br>
+</br>
+
+
 ---
 ## RFID プログラミング位置
 RFIDのエンコードポイントの設定。カッター利用時はできるだけ、Backfeedが浅めの設定にすると良いことが多い。
@@ -468,6 +550,9 @@ RFIDのエンコードポイントの設定。カッター利用時はできる�
 | ZPL コマンド| ^RS
 | SGD コマンド| rfid.position.program
 | フロントパネル | [RFID] > [RFID] > [RFIDプログラミング位置]
+
+</br>
+</br>
 
 
 ---
@@ -482,6 +567,10 @@ RFIDオートキャリブレーションは確実にエンコードができる�
 カッター、切り取り時は並行して、バックフィード量を最大化できるように「ラベル停止位置の調整」を実施した方が良い。
 
 ![bg right:30% 85%](./picture/Zpl_Hr_Result.png)
+
+</br>
+</br>
+
 
 ---
 
@@ -510,6 +599,10 @@ RFIDオートキャリブレーションは確実にエンコードができる�
     B01,A1,26,27,
     F00,A1,  ,  ,
     (略)
+
+</br>
+</br>
+
 
 ---
 
@@ -562,6 +655,9 @@ RFIDオートキャリブレーションは確実にエンコードができる�
 | RFID + Cutter     | [F0] > **[Encode Position]** > RF Encode > [F0] > Print > [Cut Position] > Cut ... > **[F0]** 
 
 
+</br>
+</br>
+
 
 ---
 
@@ -582,12 +678,21 @@ RFIDオートキャリブレーションは確実にエンコードができる�
 
         バックフィード時にラベルがプラテンローラから滑落しないバックフィード量設定にする。
         RFID、カッターを利用時はバックフィード量が大きくなりがちなので要注意。
+
+   </br>
+</br>
+
+
 ---
 
 <!-- class: sub-title -->
 
 
 # Any Questions? 
+
+</br>
+</br>
+
 
 ---
 
@@ -596,6 +701,11 @@ RFIDオートキャリブレーションは確実にエンコードができる�
 
 https://forms.office.com/r/Saf615XnrC
 
+</br>
+</br>
+
+
+
 ---
 
 
@@ -603,7 +713,17 @@ https://forms.office.com/r/Saf615XnrC
 
 https://forms.office.com/r/jWe60q98AS
 
+</br>
+</br>
+
+
+
 ---
 
 # End 
+
+</br>
+</br>
+
+
 ---
