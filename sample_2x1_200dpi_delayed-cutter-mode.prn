@@ -1,0 +1,40 @@
+﻿-- Delayed Cutter Mode
+
+-- Print
+^XA
+^MMD
+^PW406
+^LL203
+^LS0
+^FT27,68^A0N,31,30^FH\^CI28^FDCut!!^FS^CI27
+^BY3,3,41^FT47,137^BCN,,Y,N
+^FH\^FD>;123456789012^FS
+^XZ
+
+-- Cut
+! U1 do "media.cut_now" ""
+
+-- Print
+^XA
+^MMD
+^PW406
+^LL203
+^LS0
+^FT27,68^A0N,31,30^FH\^CI28^FDCut!!^FS^CI27
+^BY3,3,41^FT47,137^BCN,,Y,N
+^FH\^FD>;123456789012^FS
+^XZ
+
+-- Print
+^XA
+^MMD
+^PW406
+^LL203
+^LS0
+^FT27,68^A0N,31,30^FH\^CI28^FDCut!!^FS^CI27
+^BY3,3,41^FT47,137^BCN,,Y,N
+^FH\^FD>;123456789012^FS
+^XZ
+
+-- Cut
+! U1 do "media.cut_now" ""
